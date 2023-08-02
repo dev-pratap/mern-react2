@@ -1,0 +1,35 @@
+.navbar{
+  height: 50px;
+  width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1636942810302-3f3c76a7f81c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80");
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer{
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  font-weight: 500;
+}
+
+.navButton{
+  margin-left: 20px;
+  border: 1px solid white;
+  border-radius: 10%;
+  padding: 5px 5px;
+  cursor: pointer;
+  color: #003580;
+  text-decoration: none!important;
+}
+
+.regLog{
+  display: flex;
+}

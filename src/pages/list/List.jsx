@@ -18,7 +18,7 @@ const List = () => {
   const [max, setMax] = useState(10000000000000000);
 
   const { data, loading, error, reFetch } = useFetch(
-    `https://mern-api-inky.vercel.app/api/hotels?city=${destination}&min=${min | 1}&max=${max | 1000000000000000000000000000000000}`
+    `https://troubled-waistcoat-lamb.cyclic.cloud/api/hotels?city=${destination}&min=${min | 1}&max=${max | 1000000000000000000000000000000000}`
   );
 
   const handleClick = () => {

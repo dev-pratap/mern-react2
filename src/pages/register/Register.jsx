@@ -24,7 +24,7 @@ const Login = () => {
   const handleClick = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("https://mern-api-inky.vercel.app/api/auth/register", information);
+      const res = await axios.post("https://troubled-waistcoat-lamb.cyclic.cloud/api/auth/register", information);
       navigate("/")
     } catch (err) {
       nextDay(err);

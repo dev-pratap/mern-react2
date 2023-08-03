@@ -3,7 +3,7 @@ import "./featured.css";
 
 const Featured = () => {
   const { data, loading, error } = useFetch(
-    "https://mern-api-inky.vercel.app/api/hotels/countByCity?cities=Goa,Mussoorie,Darjeeling"
+    "https://troubled-waistcoat-lamb.cyclic.cloud/api/hotels/countByCity?cities=Goa,Mussoorie,Darjeeling"
   );
 
   return (

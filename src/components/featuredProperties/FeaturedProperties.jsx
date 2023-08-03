@@ -3,7 +3,7 @@ import useFetch from "../../hooks/useFetch";
 import "./featuredProperties.css";
 
 const FeaturedProperties = () => {
-  const { data, loading, error } = useFetch("https://mern-api-inky.vercel.app/api/hotels?featured=true&limit=4");
+  const { data, loading, error } = useFetch("https://troubled-waistcoat-lamb.cyclic.cloud/api/hotels?featured=true&limit=4");
 
   return (
     <div className="fp">

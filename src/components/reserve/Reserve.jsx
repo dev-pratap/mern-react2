@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 import Paypal from "../paypal/Paypal.jsx";
 const Reserve = ({ setOpen, hotelId ,payment}) => {
   const [selectedRooms, setSelectedRooms] = useState([]);
-  const { data, loading, error } = useFetch(`https://mern-api-inky.vercel.app/api/hotels/room/${hotelId}`);
+  const { data, loading, error } = useFetch(`https://troubled-waistcoat-lamb.cyclic.cloud/api/hotels/room/${hotelId}`);
   const { dates } = useContext(SearchContext);
 
   const product={
